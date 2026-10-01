@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datasets are downloaded automatically by src/data.py
+data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Only the final model (models/cifarnet_final.pt) is kept; run_experiments.sh re-creates the rest
+models/*_8ep.pt
+models/*_30ep.pt

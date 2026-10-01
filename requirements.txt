@@ -1,0 +1,11 @@
+# PyTorch on CPU only is a much smaller download:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14
+pillow>=10
+matplotlib>=3.8
+scikit-learn>=1.4
+pytest>=8
